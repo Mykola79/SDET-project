@@ -10,8 +10,9 @@ public class DoWhileLoops {
         do{
             System.out.println("Enter a number");
             number=scanner.nextInt();
-        }while (number!=5);
 
+
+        }while (number!=5);
 
         int number2=0;
 

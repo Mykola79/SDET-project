@@ -5,16 +5,17 @@ import java.util.Scanner;
 public class WhileDemo {
     public static void main(String[] args) {
 
+        Scanner scanner=new Scanner(System.in);
+
+
         boolean condition=true;
-
-
-            Scanner scanner=new Scanner(System.in);
-            int number=15;
+        int number=15;
 
             while (condition){
-                System.out.println("Number between 10 to 20");
 
+                System.out.println("Enter number between 10 to 20");
                 int userInput=scanner.nextInt();
+
                 if(userInput>number){
                     System.out.println("you entered the number is greater");}
                 else if(userInput<number){
