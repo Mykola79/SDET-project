@@ -8,7 +8,7 @@ public class LoopWithString {
         Scanner scanner= new Scanner(System.in);
 
         System.out.println("Enter name");
-        while (scanner.next().equalsIgnoreCase("Sha")){
+        while (scanner.nextLine().equalsIgnoreCase("Sha")){
             System.out.println("Example with String in loop");}
     }
 }
