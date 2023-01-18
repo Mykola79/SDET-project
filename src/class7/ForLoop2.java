@@ -5,8 +5,7 @@ public class ForLoop2 {
 
 int number=0;
 
-while (number<10){
-            System.out.println(number);number++;}
+while (number<10){System.out.println(number);number++;}
 
 
 

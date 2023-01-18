@@ -7,11 +7,18 @@ public class NestedLoops6 {
             1 2 3 4 5
             2 3 4 5
          */
-        for (int i = 0; i <3; i++) {for (int j = i; j <=5; j++){
-            System.out.print(j+" ");}
+        for (int i = 1; i<6; i++)
 
-            System.out.println();
+        {for (int j = i; j <=5; j++){System.out.print(j+" ");}
 
+            System.out.println();}
+
+
+            for (int a = 4; a>=1; a--)
+
+            {for (int b = a; b <=5; b++){System.out.print(b+" ");}
+
+               System.out.println();
 
 
             }

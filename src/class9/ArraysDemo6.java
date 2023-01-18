@@ -19,12 +19,9 @@ public class ArraysDemo6 {
         //numbers[5]=50;
 
         int sum=0;
-        for (int i = 0; i < numbers.length; i++)
-        {if(i%2==0)
-        {sum=sum+numbers[i];}}
+        for (int i = 0; i < numbers.length; i++) {if(i%2==0) {sum=sum+numbers[i];}}
 
-
-            System.out.println(sum);
+        System.out.println(sum);
 
         }
 

@@ -7,8 +7,7 @@ public class DoWhileLoops {
         Scanner scanner=new Scanner(System.in);
 
         int number=1;
-        do{
-            System.out.println("Enter a number");
+        do{System.out.println("Enter a number");
             number=scanner.nextInt();
 
 

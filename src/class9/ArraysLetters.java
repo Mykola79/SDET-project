@@ -8,8 +8,8 @@ public class ArraysLetters {
         char[] letters={'A', 'B', 'c', 'D', 'e', 'F'};
 
         System.out.println(letters.length);
-        for (int i = 0; i < letters.length; i++) {
-            System.out.println(letters[i]);}
+
+        for (int i = 0; i < letters.length; i++) {System.out.print(letters[i]+" ");}
 
 
     }
