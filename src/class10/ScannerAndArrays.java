@@ -7,13 +7,13 @@ public class ScannerAndArrays {
     public static void main(String[] args) {
         Scanner scanner=new Scanner(System.in);
 
-        //System.out.println("Enter five numbers");
+        System.out.println("Enter five numbers");
 
 
         int numbers[]=new int[5];
 
         /*numbers[0]=40;
-        numbers[1]=50;
+        numbers[1]=50;45
         numbers[2]=60;
         numbers[3]=70;
         numbers[4]=80;*/
@@ -24,12 +24,10 @@ public class ScannerAndArrays {
         numbers[3]=scanner.nextInt();
         numbers[4]=scanner.nextInt();*/
 
-        for(int i=0; i< numbers.length; i++){
-
-            numbers[i]=scanner.nextInt();
+        for(int i=0; i<5; i++){numbers[i]=scanner.nextInt();
         }
 
 
 
-        System.out.println(Arrays.toString(numbers));
+        System.out.print(Arrays.toString(numbers));
     }}

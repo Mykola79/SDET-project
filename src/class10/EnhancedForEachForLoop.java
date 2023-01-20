@@ -10,7 +10,7 @@ public class EnhancedForEachForLoop { public static void main(String[] args) {
     for (int i = 0; i < arr.length; i++) {
         System.out.println(arr[i]);}
 
-    System.out.println("****************");
+    System.out.println("Comparison");
 
 
     for(int number:arr) System.out.println(number);

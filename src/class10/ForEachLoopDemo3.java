@@ -10,6 +10,7 @@ public class ForEachLoopDemo3 {
         for (int x:arr) {if(x%2!=0){x=0;}
 
 
+
         }
 
         }}
