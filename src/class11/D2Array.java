@@ -9,13 +9,13 @@ public class D2Array {
                         {30, 40, 20, 10, 25}};
 
         System.out.println(matrix[2][4]);
+
         System.out.println(Arrays.toString(matrix[0]));
 
-        for(int i=0; i<matrix[0].length; i++){
-            System.out.println(matrix[0][i]);}
+        for(int i=0; i<matrix[0].length; i++){System.out.print(matrix[1][i]+" ");}
+        System.out.println();
 
-        int[] arr= matrix[0];
-        for(int i=0; i< arr.length; i++){
-            System.out.println(arr[i]);}
+        int[] arr= matrix[1];
+        for(int i=0; i< arr.length; i++){System.out.print(arr[i]+" ");}
     }
 }

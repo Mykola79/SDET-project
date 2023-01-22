@@ -9,9 +9,8 @@ public class Example {
         // Write a loop to print all the elements from this 2D array.
 
         for (int i = 0; i < matrix.length; i++) {
-            for (int j = 0; j < matrix[i].length; j++) {
 
-                System.out.println(matrix[i][j]+" ");}
+            for (int j = 0; j < matrix[i].length; j++) {System.out.print(matrix[i][j]+" ");}
 
             System.out.println();
 

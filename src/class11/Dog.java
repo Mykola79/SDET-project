@@ -10,7 +10,7 @@ public class Dog {
         void bark(){
             System.out.println("Woof Woof");}
 
-            void sleep (){
+        void sleep (){
             System.out.println("Sleep");}
 
         void eat(){

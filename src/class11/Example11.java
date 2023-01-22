@@ -7,9 +7,8 @@ public class Example11 {
                             {30, 40, 20, 10, 25}};
 
         for (int[] arr:matrix){
-            for(int number:arr){
 
-                System.out.print(number+" ");}
+            for(int number:arr){System.out.print(number+" ");}
 
 
             System.out.println();}
