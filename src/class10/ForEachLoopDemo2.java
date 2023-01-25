@@ -16,7 +16,7 @@ public class ForEachLoopDemo2 {
         System.out.println("Yes");
 
         for (int i = 0; i < names.length; i++) {
-            System.out.println(names);
+            System.out.println(names[i]);
 
         }
 

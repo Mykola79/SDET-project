@@ -6,10 +6,9 @@ public class StringDemo3 {
         String firstName="Akhter";
         String lastName="Lava";
         String fullName=firstName+" "+lastName;  //most widely used
+
         System.out.println(fullName);
         System.out.println(firstName+" "+lastName);
-
-
         System.out.println(firstName.concat(" "+lastName));
 
     }

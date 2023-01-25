@@ -6,6 +6,7 @@ public class StringDemo4 {
      String str=" ";
 
      boolean isEmpty =str.isEmpty();
+
      System.out.println(isEmpty);
 
     }

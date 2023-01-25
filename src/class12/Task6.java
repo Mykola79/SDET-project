@@ -4,7 +4,7 @@ public class Task6 {
     public static void main(String[] args) {
 
         String[][] countries={{"USA", "Canada", "Mexico"},
-                {"Brazil", "Argentina", "Peru"}};
+                            {"Brazil", "Argentina", "Peru"}};
 
         int sum=0;
 
