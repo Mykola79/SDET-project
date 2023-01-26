@@ -19,21 +19,20 @@ public class Task3 {
         Boy or Girl? girl
         Suggested baby name: MAIEL*/
 
-        String dadsName="Zafar";
-        String momsName="Hamid";
-        String expectation="girl";
+       String MomsName ="Mary";
+       String DadsName="Daniel";
+       String Expectation="boy";
 
-        String firstHalf="";
-        String secondHalf="";
+       String Firsthalf="";
+       String Secondhalf="";
 
-        if(expectation.equalsIgnoreCase("boy")) {
-            firstHalf = dadsName.substring(0, dadsName.length() / 2);
-            secondHalf = momsName.substring(momsName.length() / 2);
-            System.out.println(firstHalf + secondHalf);
+       if(Expectation.equalsIgnoreCase("Girl")){Firsthalf=DadsName.substring(0,DadsName.length()/2);
+           Secondhalf=MomsName.substring(MomsName.length()/2);
+           System.out.println(Firsthalf+""+Secondhalf);}
 
-        }else{firstHalf=momsName.substring(0,momsName.length()/2);
-            secondHalf=dadsName.substring(dadsName.length()/2);}
-        System.out.println(firstHalf+secondHalf);
+       else{Firsthalf=MomsName.substring(0,MomsName.length()/2);
+           Secondhalf=DadsName.substring(DadsName.length()/2);
+           System.out.println(Firsthalf.toUpperCase()+""+Secondhalf.toUpperCase());}
 
     }
     }

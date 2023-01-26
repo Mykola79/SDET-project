@@ -6,11 +6,11 @@ public class StringDemo5 {
    String str="JaVa";
    String str2="Java";
 
-   boolean areEqual=str.equals(str2);
-        System.out.println(areEqual);
+   //boolean areEqual=str.equals(str2);
+        System.out.println(str.equals(str2));
 
-        boolean areEqual2=str.equalsIgnoreCase(str2);
-        System.out.println(areEqual2);
+        //boolean areEqual2=str.equalsIgnoreCase(str2);
+        System.out.println(str.equalsIgnoreCase(str2));
 
 
 

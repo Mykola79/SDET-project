@@ -5,9 +5,9 @@ public class StringDemo4 {
 
      String str=" ";
 
-     boolean isEmpty =str.isEmpty();
+     //boolean isEmpty =str.isEmpty();
 
-     System.out.println(isEmpty);
+     System.out.println(str.isEmpty());
 
     }
 }
