@@ -6,11 +6,11 @@ public class Task3 {
         // How would you find out how many sentences are in that String?*/
 
         String str ="Is it saturday? Is it raining? Do we have a Java Class today?";
-        /*String[] arr=str.split("[?]");
+        String[] arr=str.split("[?]");
 
         System.out.println(arr.length);
-        System.out.println(arr[2]);*/
+        System.out.println(arr[1]);
 
-        System.out.println(str.split("[?]").length);
+        //System.out.println(str.split("[?]").length);
     }
 }

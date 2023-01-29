@@ -9,7 +9,11 @@ public class ForEachLoopDemo2 {
 
             {System.out.println(names[i]);}}
 
+
+
         System.out.println("***********");
+
+
         for (int i = 0; i < names.length; i++) {if(names[i]%2!=0){names[i]=0; }}
 
 

@@ -13,9 +13,8 @@ public class ArrayAddMachine {
 
     static void addArrayElementsMachine(int[] arr) {
         int sum = 0;
-        for (int number : arr) {
-            sum += number;
-        }
+        for (int number : arr) {sum =sum+number;}
+
         System.out.println(sum);
     }
 }

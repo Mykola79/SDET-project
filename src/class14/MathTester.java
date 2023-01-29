@@ -7,7 +7,10 @@ public class MathTester {
         Math math=new Math();
 
         //int result=math.add(10,10);
-        //math.add(10,10);
+        math.add(10,10);
+
+
+
         math.mul(10,2,3);
 
         //Scanner scanner=new Scanner(System.in);

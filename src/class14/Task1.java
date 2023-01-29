@@ -5,7 +5,7 @@ public class Task1 {
         // create a string that will hold a sentence. Write a program to get a new String without any spaces
 
         String str="Batch 15 is Great";
-        String newStr=str.replaceAll("", "");
+        String newStr=str.replaceAll("a", "r");
         System.out.println(newStr);
     }
 }

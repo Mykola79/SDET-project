@@ -29,5 +29,5 @@ public class ScannerAndArrays {
 
 
 
-        System.out.print(Arrays.toString(numbers));
+        //System.out.print(Arrays.toString(numbers));
     }}
