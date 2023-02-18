@@ -9,10 +9,9 @@ public class MethodPractice {
     boolean isEven(int number) {
         boolean flag;
         if (number % 2 == 0) {
-            flag = true;
+            return true;
         } else {
-            flag = false;}
-            return false;
+            return false;}
         }
     boolean isEven1(int number1) {
         boolean flag;

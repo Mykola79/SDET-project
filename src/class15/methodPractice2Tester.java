@@ -7,7 +7,7 @@ public class methodPractice2Tester {
         MethodPractice2 methodPractice2=new MethodPractice2();
 
 
-        System.out.println(methodPractice2.reverseStr("Sunday"));
+        System.out.println(methodPractice2.reverseStr1("Sunday"));
 
     }
 

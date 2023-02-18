@@ -7,12 +7,12 @@ public class Task {
      complete email Address. Example:  createEmail(John, Snow, gmail) → johnsnow@gmail.com or
      */
     String createEmail(String firstName, String lastName, String emailType){
-        return firstName+lastName+"@"+emailType+" .com";}
+        return firstName+lastName+"@"+emailType+".com";}
 
 
     public static void main(String[] args) {
         Task task=new Task();
 
-        //System.out.println(task.createEmail(firstName: "Jhon", lastName: "snow", emailType; "gmail"));
+        System.out.println(task.createEmail("jhon.", "snow", "gmail" ));
     }
 }

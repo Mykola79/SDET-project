@@ -4,10 +4,9 @@ public class Student {
     String name;
     String id;
     static String schoolName;
-
-
     int age;
     double weight;
+
 
     void printName(){
         System.out.println(name);

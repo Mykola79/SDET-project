@@ -3,7 +3,6 @@ package class16;
 public class Task4 {
     /*4)Create a method that will say Hello in different language based on the country that will pass when method
      is executed
-
      return type=>String void
      name= sayHello
      parameter = String countryName
@@ -11,7 +10,6 @@ public class Task4 {
     String sayHello(String countryName){
 
         switch(countryName){
-
             case "USA":
                 return "Hello"; //break is not needed when return is used
 
@@ -19,7 +17,7 @@ public class Task4 {
                 return "Salem";
 
             case "Italy":
-                return "Chia";
+                return "Chio";
 
             case "China":
                 return "Ni hao";

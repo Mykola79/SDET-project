@@ -5,6 +5,5 @@ public class ReturnDemo {
     String method1(){return "Hello World";}
 
 
-    int method2(){// output
-         return 20;}
+    int method2(){return 20;}
 }

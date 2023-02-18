@@ -2,11 +2,9 @@ package class16;
 
 public class Task5 {
     //5) Write a method to return whether given number is prime or not?
-
     //return type=boolean
     //name=isPrime
     //parameter=int number
-
     public static void main(String[] args) {
         int number=5;
         boolean flag =true;
