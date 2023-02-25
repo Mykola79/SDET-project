@@ -17,9 +17,7 @@ public class Account {
 
 public String getAccountNumber(){return accountNumber;}
 
-
-
-public void setBalance(double balance){if(balance<0){
+    public void setBalance(double balance){if(balance<0){
     System.out.println("Negative balance is not allowed its a current account");}else{
     this.balance=this.balance+balance;
 }
@@ -38,6 +36,8 @@ public void setBalance(double balance){if(balance<0){
         this.accountNumber = accountNumber;
         this.type = type;
         this.accountTitle = accountTitle;}
+
+
 
 
     public static void main(String[] args) {

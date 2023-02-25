@@ -6,10 +6,13 @@ public class Animal {
     double weight;
 
         void speak(){
-            System.out.println("Animals can speak");}
+            System.out.println("Animals can speak");
+        }
 
 
-            static class Cat extends Animal{
+
+
+    static class Cat extends Animal{
 
                     void speak(){
                     super.speak();
@@ -18,10 +21,14 @@ public class Animal {
                 void printName(){
                         System.out.println("name");}}
 
-            class Dog extends Animal{ }
 
 
-                public static void main(String[] args) {
+    class Dog extends Animal{}
+
+
+
+
+    public static void main(String[] args) {
 
                     Cat cat = new Cat();
 

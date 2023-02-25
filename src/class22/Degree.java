@@ -6,6 +6,8 @@ public class Degree {
         System.out.println("To get a Degree we need a High school Diploma");
     }
 }
+
+
 class Bachelor extends Degree{ }
 
 class Masters extends Degree {
