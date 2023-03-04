@@ -10,14 +10,16 @@ public class Task2 {
         cars.add("BWS");
         cars.add("Tesla");
         cars.add("Fs");
-
         System.out.println(cars);
 
         for (String car:cars){
             System.out.println(car);
         }
+        System.out.println("**************************");
 
         for(int i=0;i<cars.size();i++){
+            String str=cars.get(i);
+            System.out.println(str);
 
     }
 }}
